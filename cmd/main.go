@@ -1,6 +1,5 @@
 package main
 
-//TESTING
 
 import (
 	"bufio"
