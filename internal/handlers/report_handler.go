@@ -118,7 +118,7 @@ func ExportReportToPDF(title string, start, end time.Time, sales []models.Sale, 
 	pdf.Cell(40, 10, title)
 	pdf.Ln(8)
 	pdf.SetFont("Arial", "", 12)
-	pdf.Cell(40, 10, fmt.Sprintf("Período: %s a %s", start.Format("02/01/2006"), end.Format("02/01/2006")))
+	pdf.Cell(40, 10, fmt.Sprintf("Periodo: %s a %s", start.Format("02/01/2006"), end.Format("02/01/2006")))
 	pdf.Ln(12)
 
 	// Encabezados de la tabla
